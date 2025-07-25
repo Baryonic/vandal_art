@@ -35,8 +35,12 @@ p {
 a {
     font-size: clamp(1.8rem, 5vw + 1rem, 3rem);
     font-family: 'aAnotherTag', sans-serif;
-    color: white;
+    color: pink;
     text-decoration: none;
+}
+
+a:visited {
+    color: aquamarine;
 }
 
 button {
