@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vandal Art</title>
-    <style>
-        body {
-            background-image: url('images/art01.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100vh;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            font-family: sans-serif;
-        }
-        p {
-            color: white;
-            font-size: 2rem;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
-            padding: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>For your art performance, you choose the products, place in Netherlands&nbsp;we&nbsp;make&nbsp;it.</p>
+    <div>
+        <p>For your arT performance</p>
+    </div>
+    <div>
+        <p>you choose the products</p>
+    </div>
+    <div>
+        <p> place in NeTherlands&nbsp;we&nbsp;make&nbsp;it.</p>
+    </div>
+    <div>
+        <a href="https://share.google/HM5CAz44VCo9a8KW2" target="_blank"> Vandal ArT</a>
+    </div>
+    <div id="sendMessageContainer">
+        <button id="sendMessageBtn">Send Message</button>
+    </div>
+    <div id="messageAreaContainer" style="display: none;">
+        <textarea id="messageTextArea" rows="4" cols="50"></textarea>
+        <div id="messageButtons">
+            <button id="cancelBtn">Cancel</button>
+            <button id="sendBtn">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
